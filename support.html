@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>WeatherWindow Support</title>
+  <style>
+    :root { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: Canvas; color: CanvasText; line-height: 1.6; }
+    header, main, footer { width: min(50rem, calc(100% - 2rem)); margin-inline: auto; }
+    header { padding: 3rem 0 1.25rem; border-bottom: 1px solid color-mix(in srgb, CanvasText 18%, transparent); }
+    main { padding: 1rem 0 2.5rem; }
+    footer { padding: 1.25rem 0 2.5rem; border-top: 1px solid color-mix(in srgb, CanvasText 18%, transparent); }
+    h1 { margin: 0 0 .35rem; font-size: clamp(2rem, 8vw, 3.3rem); line-height: 1.08; }
+    h2 { margin-top: 2rem; line-height: 1.25; }
+    p, li { max-width: 72ch; }
+    a { color: LinkText; text-underline-offset: .16em; }
+    .eyebrow { margin: 0; font-weight: 700; color: #397cc5; }
+    .cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); margin: 1.5rem 0; }
+    .card { padding: 1rem; border: 1px solid color-mix(in srgb, CanvasText 18%, transparent); border-radius: 1rem; background: color-mix(in srgb, #397cc5 7%, Canvas); }
+    .card h2 { margin-top: 0; font-size: 1.2rem; }
+    .notice { padding: 1rem; border-left: .3rem solid #e5a522; background: color-mix(in srgb, #e5a522 12%, Canvas); }
+    code { overflow-wrap: anywhere; }
+    @media (max-width: 34rem) { header { padding-top: 2rem; } main { padding-bottom: 1.5rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="eyebrow">WeatherWindow</p>
+    <h1>Support</h1>
+    <p>Help with custom forecast hours, locations, and Apple Weather data.</p>
+  </header>
+  <main>
+
+    <div class="cards">
+      <section class="card">
+        <h2>Custom Day</h2>
+        <p>Open Settings to choose a start and end time, then tap Apply hours. Your window applies to each saved city in that city’s local time. Use the switch at the top of the home screen, or Custom Day in Settings, to turn your window off and use Apple’s full-day forecast.</p>
+      </section>
+      <section class="card">
+        <h2>Overnight rain</h2>
+        <p>Open a day to view all available hours. Rain outside your selected hours remains visible but does not control the custom-day headline.</p>
+      </section>
+      <section class="card">
+        <h2>Location access</h2>
+        <p>Current location is optional. If you deny access, open Locations and search for a city. Use iOS Settings if you later want to change permission.</p>
+      </section>
+      <section class="card">
+        <h2>Unavailable weather</h2>
+        <p>Check the connection and tap Retry or Refresh. A saved forecast can remain visible with its update time while a live request is unavailable.</p>
+      </section>
+    </div>
+
+    <h2>Weather details and attribution</h2>
+    <p>Tap a day for hourly temperature, precipitation, wind, gusts, direction, fog, and visibility. Weather data is provided by Apple Weather. In the app’s Settings, tap the Apple Weather mark or Weather data sources to open the current legal attribution page.</p>
+
+    <h2 id="contact">Contact support</h2>
+    <p>Email support at <strong><a href="mailto:weatherwindowman@gmail.com">weatherwindowman@gmail.com</a></strong>. Include the WeatherWindow version/build, device model, iOS/iPadOS version, selected city, Custom Day hours, and steps that reproduce the issue. Do not include precise location or other sensitive information unless support specifically needs it and you choose to provide it.</p>
+  </main>
+  <footer>
+    <p>WeatherWindow · <a href="privacy.html">Privacy Policy</a></p>
+  </footer>
+</body>
+</html>
