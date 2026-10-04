@@ -1,4 +1,6 @@
 {
   "formatVersion": 1,
-  "packs": []
+  "packs": [
+    { "id": "lite-test", "name": "Test Pack", "version": 1 }
+  ]
 }
