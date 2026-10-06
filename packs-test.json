@@ -1,6 +1,5 @@
 {
   "formatVersion": 1,
-  "packs": [
-    { "id": "lite-test", "name": "Test Pack", "version": 1 }
-  ]
+  "packs": [],
+  "roshChodesh": { "id": "lite-test", "name": "Test Pack", "version": 1, "caption": "TEST CAPTION" }
 }
