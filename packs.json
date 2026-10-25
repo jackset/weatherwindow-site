@@ -1,5 +1,17 @@
 {
   "formatVersion": 1,
   "packs": [],
-  "roshChodesh": { "id": "sebabooney", "name": "SebaBooney", "version": 1, "caption": "GAM SEBABOONEY" }
+  "roshChodesh": { "id": "sebabooney", "name": "SebaBooney", "version": 1, "caption": "GAM SEBABOONEY" },
+  "specialDays": [
+    {
+      "dates": [
+        "2026-10-26"
+      ],
+      "art": {
+        "id": "wagme",
+        "version": 1
+      },
+      "message": "It’s Wagme Time"
+    }
+  ]
 }
