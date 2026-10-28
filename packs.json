@@ -1,7 +1,12 @@
 {
   "formatVersion": 1,
   "packs": [],
-  "roshChodesh": { "id": "sebabooney", "name": "SebaBooney", "version": 1, "caption": "GAM SEBABOONEY" },
+  "roshChodesh": {
+    "id": "sebabooney",
+    "name": "SebaBooney",
+    "version": 1,
+    "caption": "GAM SEBABOONEY"
+  },
   "specialDays": [
     {
       "dates": [
@@ -12,6 +17,18 @@
         "version": 1
       },
       "message": "It’s Wagme Time"
+    },
+    {
+      "dates": [
+        "2026-10-30"
+      ],
+      "message": "DST: Clocks back 1 hour Sunday"
+    },
+    {
+      "dates": [
+        "2026-10-31"
+      ],
+      "message": "DST: Clocks go back tonight"
     }
   ]
 }
