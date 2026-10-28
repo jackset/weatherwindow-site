@@ -27,25 +27,34 @@
   <header>
     <p class="eyebrow">Lite Sky</p>
     <h1>Privacy Policy</h1>
-    <p><strong>Effective date: October 4, 2026</strong></p>
+    <p><strong>Effective date: October 27, 2026</strong></p>
   </header>
   <main>
 
     <h2>Information Lite Sky uses</h2>
-    <p>Lite Sky can use your device’s current location only after you request current-location weather and grant When In Use permission. The coordinates are used to request a local forecast through Apple WeatherKit. Current location is optional; you can deny or revoke access and search for a city instead.</p>
+    <p>Lite Sky can use your device’s current location only after you grant location permission, when you request current-location weather or turn on a notification. The coordinates are used to request a local forecast through Apple WeatherKit and, if notifications are on, to time them (below). Current location is optional; you can deny or revoke access and search for a city instead.</p>
     <p>City searches and weather requests are handled through Apple services. Apple’s handling of information is governed by Apple’s own notices and terms. Lite Sky does not operate a server that receives these requests.</p>
+    <h2>Notifications (optional)</h2>
+    <p>If you turn on a notification in Settings (rain starting soon, severe weather alerts, or a morning summary), Lite Sky sends the following to its notification server so it can check the forecast and send the notification at the right time:</p>
+    <ul>
+      <li>your device’s current location, rounded to about 1 km (two decimal places). Notifications are always for where you are. If you allow location Always, Lite Sky updates this in the background when your device moves a significant distance (iOS decides when, typically a few hundred meters or more); with When In Use, it uses the last place the app saw you;</li>
+      <li>its time zone, your hours, your units, the notifications you turned on, your morning time, and your language;</li>
+      <li>a random ID created by the app and Apple’s push notification token for your device.</li>
+    </ul>
+    <p>There is no account, name, email, or contact information, and this information is not used for advertising, tracking, or profiling, and is not sold or shared with anyone. The server sends the rounded location to Apple WeatherKit to get the forecast and uses Apple’s push notification service to deliver notifications. The server is hosted by Supabase in the United States. Notifications are available in the US only; while you are elsewhere, the record is removed until you are back.</p>
     <p>Extra icon packs are images downloaded from this website. No personal data is sent: the requests carry no account, location, or device identifier.</p>
 
     <h2>Information stored on your device</h2>
-    <p>Saved cities, the last location you viewed (which can be your current location), unit preferences, custom-day hours, and a short-lived weather cache are stored on your device so the app can reopen where you left off. The cache improves availability and is not intended as a long-term weather archive. Version 1 has no Lite Sky account, developer-operated backend, advertising, analytics SDK, cross-app tracking, or user profiling.</p>
+    <p>Saved cities, the last location you viewed (which can be your current location), unit preferences, custom-day hours, and a short-lived weather cache are stored on your device so the app can reopen where you left off. The cache improves availability and is not intended as a long-term weather archive. Lite Sky has no account, advertising, analytics SDK, cross-app tracking, or user profiling.</p>
 
     <h2>Retention, deletion, and choices</h2>
     <ul>
       <li>Remove individual saved cities in the Locations screen.</li>
       <li>Turn current-location access off in iOS Settings.</li>
+      <li>Turn off all notifications in Lite Sky’s Settings to delete your notification record from the server right away. A record that is not refreshed by the app for 30 days, for example after you delete Lite Sky, is deleted automatically.</li>
       <li>Delete Lite Sky to remove its local app container, settings, and cache according to iOS behavior.</li>
     </ul>
-    <p>Because version 1 has no developer account or backend, the developer has no server-side Lite Sky account record to retrieve or delete.</p>
+    <p>Lite Sky has no accounts. The only server-side record is the notification record described above, which exists only while notifications are on.</p>
 
     <h2>Children</h2>
     <p>Lite Sky is a general weather utility and is not presented as a Kids Category app. The developer does not knowingly operate a system for collecting children’s personal information.</p>
