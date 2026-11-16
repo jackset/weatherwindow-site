@@ -1,6 +1,12 @@
 {
   "formatVersion": 1,
-  "packs": [],
+  "packs": [
+    {
+      "id": "albert-sweater",
+      "name": "Albert Sweater",
+      "version": 1
+    }
+  ],
   "roshChodesh": {
     "id": "sebabooney",
     "name": "SebaBooney",
