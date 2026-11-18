@@ -20,6 +20,11 @@
       "id": "ez-the-cowboy",
       "name": "Ez the Cowboy",
       "version": 1
+    },
+    {
+      "id": "stango",
+      "name": "StanGo",
+      "version": 1
     }
   ],
   "roshChodesh": {
