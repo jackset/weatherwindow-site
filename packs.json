@@ -10,6 +10,11 @@
       "id": "albert-tailored",
       "name": "Albert Tailored",
       "version": 1
+    },
+    {
+      "id": "ralph",
+      "name": "Ralph",
+      "version": 1
     }
   ],
   "roshChodesh": {
