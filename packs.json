@@ -5,6 +5,11 @@
       "id": "albert-sweater",
       "name": "Albert Sweater",
       "version": 1
+    },
+    {
+      "id": "albert-tailored",
+      "name": "Albert Tailored",
+      "version": 1
     }
   ],
   "roshChodesh": {
