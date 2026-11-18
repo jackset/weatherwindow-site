@@ -25,6 +25,11 @@
       "id": "stango",
       "name": "StanGo",
       "version": 1
+    },
+    {
+      "id": "fabeio",
+      "name": "fABEio",
+      "version": 1
     }
   ],
   "roshChodesh": {
