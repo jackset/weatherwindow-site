@@ -30,6 +30,11 @@
       "id": "fabeio",
       "name": "fABEio",
       "version": 1
+    },
+    {
+      "id": "mo-buildings",
+      "name": "Mo Buildings",
+      "version": 1
     }
   ],
   "roshChodesh": {
