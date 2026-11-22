@@ -50,6 +50,11 @@
       "id": "captain-crunch",
       "name": "Captain Crunch",
       "version": 1
+    },
+    {
+      "id": "sal-the-explorer",
+      "name": "Sal the Explorer",
+      "version": 1
     }
   ],
   "roshChodesh": {
