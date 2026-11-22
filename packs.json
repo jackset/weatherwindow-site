@@ -45,6 +45,11 @@
       "id": "mo-to-scale",
       "name": "Mo To Scale",
       "version": 1
+    },
+    {
+      "id": "captain-crunch",
+      "name": "Captain Crunch",
+      "version": 1
     }
   ],
   "roshChodesh": {
