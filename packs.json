@@ -35,6 +35,11 @@
       "id": "mo-buildings",
       "name": "Mo Buildings",
       "version": 2
+    },
+    {
+      "id": "salmon-king",
+      "name": "Salmon King",
+      "version": 1
     }
   ],
   "roshChodesh": {
