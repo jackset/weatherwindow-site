@@ -40,6 +40,11 @@
       "id": "salmon-king",
       "name": "Salmon King",
       "version": 1
+    },
+    {
+      "id": "mo-to-scale",
+      "name": "Mo To Scale",
+      "version": 1
     }
   ],
   "roshChodesh": {
