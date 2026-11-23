@@ -55,6 +55,11 @@
       "id": "sal-the-explorer",
       "name": "Sal the Explorer",
       "version": 1
+    },
+    {
+      "id": "ralph-the-great",
+      "name": "Ralph the Great",
+      "version": 1
     }
   ],
   "roshChodesh": {
