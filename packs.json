@@ -60,6 +60,11 @@
       "id": "ralph-the-great",
       "name": "Ralph the Great",
       "version": 1
+    },
+    {
+      "id": "jonah",
+      "name": "יונה",
+      "version": 1
     }
   ],
   "roshChodesh": {
