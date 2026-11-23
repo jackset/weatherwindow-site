@@ -65,6 +65,11 @@
       "id": "jonah",
       "name": "יונה",
       "version": 1
+    },
+    {
+      "id": "flakey-jakey",
+      "name": "Flakey Jakey",
+      "version": 1
     }
   ],
   "roshChodesh": {
